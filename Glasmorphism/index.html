@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Glasmorphism Credit Card</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>MsBank</h2>
+                    <img src="images/MasterCard_Logo.png" class="mastercard">
+                    <img src="images/chip.png" class="chip">
+                    <img src="images/indicator.png" class="indicator">
+                    <h3 class="id_number">4343 9636 8525 7414</h3>
+                    <h5 class="owner">Muhammed ÖĞÜT</h5>
+                    <h5 class="date">expiry date <br/><span>10/25</span></h5>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script>	VanillaTilt.init(document.querySelector(".card"), {
+            max: 25,
+            speed: 400
+        });</script>
+    </body>
+</html>
