@@ -68,3 +68,8 @@ span
     margin-top: 20px;
 
 }
+.head
+{
+    position: absolute;
+    top: 100px;
+}
